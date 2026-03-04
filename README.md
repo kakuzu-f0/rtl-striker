@@ -1,10 +1,16 @@
-# RTL Striker - WiFi Attack Tool
+# RTL Striker - Enhanced WiFi Attack Tool
 **Enhanced by Kakuzu (Discord: kakuzu_f0 | Telegram: kakuzu_f0)**
 
 Based on: https://github.com/gorebrau/delfyRTL
 
 ## Overview
-WiFi penetration testing tool for **Flipper Zero + BW16 (RTL8720DN)** module.
+Enhanced version of **delfyRTL** with major improvements and bug fixes for **Flipper Zero + BW16 (RTL8720DN)** module.
+
+**Key Improvements:**
+- 🔧 **Bug fixes** - Buffer overflow vulnerabilities patched
+- ⏳ **Loading animation** - Visual feedback during WiFi scans  
+- 🎨 **Modern UI** - Renamed to RTL Striker with new icons
+- 📱 **Enhanced features** - 12 portal templates, 3 beacon packs
 
 **Attacks:**
 - **Deauthentication** - Disconnect clients
@@ -51,11 +57,12 @@ WiFi penetration testing tool for **Flipper Zero + BW16 (RTL8720DN)** module.
 ## Installation
 
 ```bash
-cd flipper-app
+git clone https://github.com/kakuzu-f0/rtl-striker.git
+cd rtl-striker
 build.bat
 ```
 
-Copy `rtl_striker.fap` → `apps/Tools/` on SD card, reboot, and find **RTL Striker** in Tools menu.
+Copy `dist/rtl_striker.fap` → `apps/Tools/` on SD card, reboot, and find **RTL Striker** in Tools menu.
 
 ---
 
