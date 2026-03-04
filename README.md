@@ -1,0 +1,76 @@
+# RTL Striker - WiFi Attack Tool
+**Enhanced by Kakuzu (Discord: kakuzu_f0 | Telegram: kakuzu_f0)**
+
+Based on: https://github.com/gorebrau/delfyRTL
+
+## Overview
+WiFi penetration testing tool for **Flipper Zero + BW16 (RTL8720DN)** module.
+
+**Attacks:**
+- **Deauthentication** - Disconnect clients
+- **Evil Portal** - 12 modern templates  
+- **Beacon Flood** - 3 themed packs
+
+### **Features:**
+
+**Evil Portal Templates (12):**
+- Social Media: Facebook, Instagram, TikTok
+- Streaming: Netflix, YouTube
+- Tech Giants: Apple, Amazon  
+- French ISPs: Orange, Free, SFR, Bouygues
+- Default template
+
+**Beacon Flood Packs (3):**
+- Custom AP Beacon - Your SSID
+- Random AP Beacon - Auto-generated
+- RickRoll AP Beacon - Classic theme
+
+---
+
+## Hardware
+**BW16 (RTL8720DN) ↔ Flipper Zero:**
+
+| BW16 | Flipper Zero |
+|------|--------------|
+| 5V   | (1) 5V       |
+| GND  | (8) GND      |
+| RX1  | (13) TX      |
+| TX1  | (14) RX      |
+
+*Use TX1/RX1 port to avoid SD card conflicts.*
+
+---
+
+## Requirements
+- **Flipper Zero** (Momentum)
+- **BW16 (RTL8720DN)** WiFi module
+- Connection wires
+
+---
+
+## Installation
+
+```bash
+cd flipper-app
+build.bat
+```
+
+Copy `rtl_striker.fap` → `apps/Tools/` on SD card, reboot, and find **RTL Striker** in Tools menu.
+
+---
+
+## Usage
+
+**Evil Portal:** Scan WiFi → Select target → Choose template → Launch
+
+**Beacon Flood:** Send Beacon → Choose pack (Custom/Random/RickRoll)
+
+---
+
+## Disclaimer
+**Educational & authorized security testing only.** 
+
+---
+
+## License
+MIT License - Enhanced by Kakuzu

@@ -1,0 +1,18 @@
+# For details & more options, see documentation/AppManifests.md in firmware repo
+
+App(
+    appid="rtl_striker",  # Must be unique
+    name="RTL Striker",  # Displayed in menus
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="rtl_striker_app",
+    stack_size=2 * 1024,
+    fap_category="GPIO",
+    # Optional values
+    fap_version="1.0",
+    fap_icon="rtl_striker.png",  # 10x10 1-bit PNG
+    fap_description="Enhanced WiFi attack tool with modern portals and beacon flooding",
+    fap_author="Kakuzu",
+    fap_weburl="https://github.com/gorebrau/delfyRTL",
+    fap_icon_assets="images",  # Image assets to compile for this application
+    fap_libs=["assets", "hwdrivers"],
+)
