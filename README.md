@@ -9,7 +9,6 @@ Enhanced version of **delfyRTL** with major improvements and bug fixes for **Fli
 **Key Improvements:**
 - 🔧 **Bug fixes** - Buffer overflow vulnerabilities patched
 - ⏳ **Loading animation** - Visual feedback during WiFi scans  
-- 🎨 **Modern UI** - Renamed to RTL Striker with new icons
 - 📱 **Enhanced features** - 12 portal templates, 3 beacon packs
 
 ### **Loading Animation Demo**
