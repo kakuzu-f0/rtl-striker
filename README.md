@@ -12,6 +12,10 @@ Enhanced version of **delfyRTL** with major improvements and bug fixes for **Fli
 - 🎨 **Modern UI** - Renamed to RTL Striker with new icons
 - 📱 **Enhanced features** - 12 portal templates, 3 beacon packs
 
+### **Loading Animation Demo**
+![Searching Animation](Searching.gif)
+*Visual feedback during WiFi network scanning*
+
 **Attacks:**
 - **Deauthentication** - Disconnect clients
 - **Evil Portal** - 12 modern templates  
